@@ -3,8 +3,8 @@ MyVideoApp
 
 iOS Boot Camp video recording project at Rock Valley College.
 
-Student: Brandon White
+__Student:__ Brandon White
 
-Professor: Chuck Konkol
+__Professor:__ Chuck Konkol
 
-School: Rock Valley College, Rockford, Il
+__School:__ Rock Valley College, Rockford, Il
