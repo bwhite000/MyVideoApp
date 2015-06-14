@@ -17,6 +17,7 @@
 		E27E62881B2CBF4400DDB9B1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E62871B2CBF4400DDB9B1 /* Video.swift */; };
 		E27E628A1B2CD35500DDB9B1 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E62891B2CD35500DDB9B1 /* VideoTableViewController.swift */; };
 		E27E628C1B2CE04800DDB9B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27E628B1B2CE04800DDB9B1 /* MainViewController.swift */; };
+		E27E628E1B2D0FBB00DDB9B1 /* MyVideoApp_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E27E628D1B2D0FBB00DDB9B1 /* MyVideoApp_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		E27E62871B2CBF4400DDB9B1 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		E27E62891B2CD35500DDB9B1 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		E27E628B1B2CE04800DDB9B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E27E628D1B2D0FBB00DDB9B1 /* MyVideoApp_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyVideoApp_icon.png; sourceTree = "<group>"; };
+		E27E628F1B2D0FCB00DDB9B1 /* MyVideoApp_icon.pxd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyVideoApp_icon.pxd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		E27E62561B2CBDD000DDB9B1 = {
 			isa = PBXGroup;
 			children = (
+				E27E628D1B2D0FBB00DDB9B1 /* MyVideoApp_icon.png */,
+				E27E628F1B2D0FCB00DDB9B1 /* MyVideoApp_icon.pxd */,
 				E27E62611B2CBDD000DDB9B1 /* MyVideoApp */,
 				E27E627A1B2CBDD000DDB9B1 /* MyVideoAppTests */,
 				E27E62601B2CBDD000DDB9B1 /* Products */,
@@ -204,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27E628E1B2D0FBB00DDB9B1 /* MyVideoApp_icon.png in Resources */,
 				E27E626D1B2CBDD000DDB9B1 /* Main.storyboard in Resources */,
 				E27E62721B2CBDD000DDB9B1 /* LaunchScreen.xib in Resources */,
 				E27E626F1B2CBDD000DDB9B1 /* Images.xcassets in Resources */,
@@ -357,7 +363,7 @@
 		E27E62821B2CBDD000DDB9B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MyVideoApp;
 				INFOPLIST_FILE = MyVideoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,7 +373,7 @@
 		E27E62831B2CBDD000DDB9B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MyVideoApp;
 				INFOPLIST_FILE = MyVideoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
